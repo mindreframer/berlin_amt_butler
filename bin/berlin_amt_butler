@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require 'bundler'
+Bundler.setup
+require 'berlin_amt_butler'
+
+BerlinAmtButler::Runner.new.run
